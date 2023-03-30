@@ -212,7 +212,7 @@ nav ul .fas{
     margin-top: 100px;
     border-radius: 50%;
   }
-  /* ...About Section... */
+   /* ................About Section............. */
 .about-section{
   width: 100%;
   display: flex;
@@ -270,3 +270,164 @@ nav ul .fas{
     margin-left: 500px;
     margin-top: 50px;
    }
+ /* ..............................Skill Section......................... */
+  .skill{
+    height: auto;
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+  gap:30px;;
+   padding-bottom: 50px;
+  
+  
+  }
+  #skills h1{
+   color:white;
+   text-align: center;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+   font-weight: bold;
+   font-size: 40px;
+   margin-bottom: 50px;
+   background-color:  transparent !important;
+  }
+ .skill.skill-card:hover{
+    transform: scale(1.05);
+    background-color: aqua;
+  }
+ 
+  .skills-card{
+    width: 130px;
+    height: 170px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background-color:white;
+    border-radius: 10px;
+    transition: 0.5s;
+   
+    
+  }
+  .skills-card :hover{
+   
+    cursor: pointer;
+   
+  }
+  .skills-card img{
+    width: 100%;
+  
+ border-radius: 10px 10px 0px 0px;
+    margin: auto;
+    
+  }
+  .skills-card img:hover{
+    background-color: aqua;
+  }
+.skills-card-name{
+  font-size: 20px;
+  text-align: center;
+  margin-top: 0px;
+}
+
+/* ..................Project Section ................ */
+
+#projects h1{
+  text-align: center;
+  font-size: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bolder;
+ 
+ color:white
+}
+.project{
+  height: auto;
+width: 80%;
+margin: auto;
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  column-gap: 50px; 
+}
+
+.project  .project-card:hover{
+  cursor: pointer;
+  transform: scale(1.05);
+  background: purple;
+  color: white;
+ 
+}
+ .project-card{
+  height: auto;
+   width: 100%;
+ margin-top: 30px;
+ margin-bottom: 40px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color:#101110;
+  padding-top: 20px;
+  color: #fff;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  justify-content: space-between;
+  border: 3px solid purple;
+}
+.project-card h1{
+font-size: 20px;
+
+}
+.project .project-card img{
+  width: 90%;
+  height: 250px;
+  margin: 0px 15px;
+  border-radius: 10px;
+}
+.project .project-card p{
+  text-align: center;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  margin:5px 10px;
+ 
+}
+
+.project-tech-stack{
+  margin-top: 10px;
+  font-size: 20px;
+  
+}
+.repo-links {
+  display: flex;
+  justify-content: space-between;
+ 
+  height: 45px;
+  margin: 10px  20px;
+}
+
+.project-github-link {
+  display: flex;
+  width: 35%;
+  border: 1px solid white;
+  justify-content: center;
+  align-items: center;
+  
+}
+.project-github-link a{
+  text-decoration: none;
+  color: white;
+}
+.project-github-link:hover{
+  cursor: pointer;
+  background:rgb(1, 1, 41);
+  
+}
+
+.project-deployed-link {
+  display: flex;
+  width: 35%;
+  border: 1px solid white;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+.project-deployed-link a{
+  text-decoration: none;
+  color: white;
+}
+.project-deployed-link:hover{
+  cursor: pointer;
+  background: rgb(1, 1, 41);
+}
